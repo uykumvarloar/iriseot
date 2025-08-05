@@ -30,7 +30,7 @@ print("🎮 Game: " .. SCRIPT_INFO.game)
 print("⏳ Loading script components...")
 
 -- Base URL for script files (this would be replaced with actual URL)
-local BASE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/StealBrainrotScript/"
+local BASE_URL = "https://github.com/uykumvarloar/iriseot/tree/main/stealbrrot"
 
 -- Function to load script modules
 local function loadModule(moduleName)
@@ -196,3 +196,4 @@ autoLoad()
 
 -- Return the main object for manual access
 return getgenv().StealBrainrot
+
