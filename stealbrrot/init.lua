@@ -87,20 +87,20 @@ local success, result = pcall(function()
     print("🔄 Loading core modules...")
     
     -- Load configuration system
-    local config = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/core/config.lua"))()
+    local config = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/config.lua"))()
     if not config then
         error("Failed to load configuration module")
     end
     
     -- Load utility functions
-    local utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/core/utils.lua"))()
+    local utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/utils.lua"))()
     if not utils then
         error("Failed to load utility module")
     end
     
     -- Load UI system
     print("🎨 Loading user interface...")
-    local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/ui/main.lua"))()
+    local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/main.lua"))()
     if not ui then
         error("Failed to load UI module")
     end
@@ -109,19 +109,19 @@ local success, result = pcall(function()
     print("⚡ Loading features...")
     
     -- Stealing features
-    local stealing = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/features/stealing.lua"))()
+    local stealing = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/stealing.lua"))()
     
     -- Movement features
-    local movement = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/features/movement.lua"))()
+    local movement = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/movement.lua"))()
     
     -- Combat features
-    local combat = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/features/combat.lua"))()
+    local combat = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/combat.lua"))()
     
     -- Protection features
-    local protection = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/features/protection.lua"))()
+    local protection = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/protection.lua"))()
     
     -- Utility features
-    local utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/features/utilities.lua"))()
+    local utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/utilities.lua"))()
     
     -- Load Security
     print("🔒 Loading security modules...")
@@ -166,7 +166,7 @@ local success, result = pcall(function()
         reload = function()
             getgenv().StealBrainrot.unload()
             wait(1)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/StealBrainrotScript/main/init.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/init.lua"))()
         end
     }
     
@@ -215,3 +215,4 @@ if player and player.Chatted then
         end
     end)
 end
+
