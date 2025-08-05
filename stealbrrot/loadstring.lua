@@ -4,7 +4,7 @@
     This is the main loadstring file that users will execute.
     It loads and initializes the entire script system.
     
-    Usage: loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/isjustloa/refs/heads/main/loadstring.lua"))()
+    Usage: loadstring(game:HttpGet("https://raw.githubusercontent.com/uykumvarloar/iriseot/refs/heads/main/stealbrrot/loadstring.lua"))()
 ]]--
 
 -- Check if script is already loaded
@@ -196,4 +196,5 @@ autoLoad()
 
 -- Return the main object for manual access
 return getgenv().StealBrainrot
+
 
